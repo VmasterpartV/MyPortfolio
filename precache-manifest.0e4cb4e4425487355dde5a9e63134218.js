@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0b3f9c7119228356bac",
+    "revision": "729d53f18e9956011a5e",
     "url": "/myportfolio/dist/css/app.bd70d789.css"
   },
   {
@@ -8,27 +8,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myportfolio/dist/img/logo.82b9c7a5.png"
   },
   {
-    "revision": "cb2a36d9e494ae09011e9a7c20cd9d63",
+    "revision": "b649e5f11f7af32b2d1caf9aa8d1b8ce",
     "url": "/myportfolio/dist/index.html"
   },
   {
     "revision": "8b97d63ab1f913847d3d",
-    "url": "/myportfolio/dist/js/about.3c92adac.js"
+    "url": "/myportfolio/dist/js/about-legacy.3c92adac.js"
   },
   {
-    "revision": "e0b3f9c7119228356bac",
-    "url": "/myportfolio/dist/js/app.90c263ff.js"
+    "revision": "729d53f18e9956011a5e",
+    "url": "/myportfolio/dist/js/app-legacy.45371624.js"
   },
   {
     "revision": "4a3f47bfc1da641f205e",
-    "url": "/myportfolio/dist/js/chunk-vendors.f4937221.js"
+    "url": "/myportfolio/dist/js/chunk-vendors-legacy.f4937221.js"
   },
   {
     "revision": "cb86264b147ddd03dd286b9090c07e44",
     "url": "/myportfolio/dist/manifest.json"
-  },
-  {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
-    "url": "/myportfolio/dist/robots.txt"
   }
 ]);
