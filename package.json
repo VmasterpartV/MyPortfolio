@@ -11,9 +11,13 @@
     "publish": "npm run build:gh-pages && npm run deploy:gh-pages"
   },
   "dependencies": {
+    "buefy": "^0.9.4",
+    "bulma": "^0.9.1",
     "core-js": "^3.6.5",
     "gh-pages": "^3.1.0",
     "register-service-worker": "^1.7.1",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
