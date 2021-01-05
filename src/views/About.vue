@@ -348,7 +348,8 @@ a {
 }
 
 .resume-wrapper {
-  position: relative;
+  position: absolute;
+  z-index: 1;
   text-align: center;
   height: 100%;
 }

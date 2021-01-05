@@ -14,14 +14,18 @@
               data-aos="fade-down"
             >
               <h1 class="title titled is-1 mb-6">
-                Hello! I'am Yael Mota, only a engineering student
+                Hello! I'm Yael Mota, only an engineering student
               </h1>
               <h2
                 class=" subtitled subtitle has-text-grey is-4 has-text-weight-normal is-family-sans-serif"
               >
-                I am passionate about programming with an insatiable desire to
-                learn, actually i'am study computational systems engineering at
-                the <a href="https://www.itmerida.mx/" target="_blank">Tecnological Institute of Merida</a>  in Yucatan, Mexico
+                I'm passionate about programming with an insatiable desire to
+                learn, actually i'm study computational systems engineering at
+                the
+                <a href="https://www.itmerida.mx/" target="_blank"
+                  >Tecnological Institute of Merida</a
+                >
+                in Yucatan, Mexico
               </h2>
               <div class="buttons">
                 <a
@@ -52,7 +56,7 @@
                     /></svg
                 ></a>
                 <router-link class="button is-black" tag="a" to="/about">
-                  More about me
+                  <h1>More about me</h1>
                 </router-link>
               </div>
             </div>
@@ -197,6 +201,14 @@ export default {
   .reverse-columns {
     flex-direction: column-reverse;
     display: flex;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .subtitled {
+    font-size: 18px !important;
   }
 }
 

@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <router-link class="navbar-item" tag="a" to="/">
         <img
-          src="https://bulma.io/images/bulma-logo.png"
+          src="@/assets/logo.png"
           alt="Bulma: Free, open source, and modern CSS framework based on Flexbox"
           width="112"
           height="28"
@@ -32,6 +32,7 @@ export default {
 
 <style scoped>
 .navbar {
+  z-index: 2;
   position: fixed;
   left: 0;
   top: 0;
