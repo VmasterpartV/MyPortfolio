@@ -14,7 +14,7 @@
               data-aos="fade-down"
             >
               <h1 class="title titled is-1 mb-6">
-                Hello! I'm Yael Mota, only an engineering student
+                Hello! I'm Ivan Mota only a student with the alias masterpart
               </h1>
               <h2
                 class=" subtitled subtitle has-text-grey is-4 has-text-weight-normal is-family-sans-serif"
@@ -70,7 +70,7 @@
           is-4-fullhd is-offset-1-fullhd"
             >
               <figure class="image is-square">
-                <img src="@/assets/undraw_source_code_xx2e.svg" />
+                <img src="@/assets/undraw_grid_design_obmd.svg" />
               </figure>
             </div>
           </div>

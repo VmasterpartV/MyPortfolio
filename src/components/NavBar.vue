@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <router-link class="navbar-item" tag="a" to="/">
         <img
-          src="@/assets/logo.png"
+          src="@/assets/Png masterpart-2240x560.png"
           alt="Bulma: Free, open source, and modern CSS framework based on Flexbox"
           width="112"
           height="28"
@@ -37,7 +37,7 @@ export default {
   left: 0;
   top: 0;
   z-index: 2;
-  background-color: white;
+  background-color: black;
   justify-content: space-around;
   width: 100%;
   border-bottom: 1px solid lightgray;
