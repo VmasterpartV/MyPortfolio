@@ -50,7 +50,7 @@
                 ></a>
                 <a
                   class="button is-black"
-                  href="https://www.facebook.com/profile.php?id=100005356991809"
+                  href=""
                   target="_blank"
                   ><svg style="width:36px;height:36px" viewBox="0 0 24 24">
                     <path

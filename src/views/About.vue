@@ -9,9 +9,7 @@
         <div class="container">
           <div class="picture-resume-wrapper">
             <div class="picture-resume">
-              <span
-                ><img src="@/assets/definicion-de-persona-min.jpg" alt=""
-              /></span>
+              <span><img src="@/assets/YoPortfolio.jpeg" alt=""/></span>
               <svg version="1.1" viewBox="0 0 350 350">
                 <defs>
                   <filter id="goo">
@@ -121,28 +119,15 @@
             <div class="clearfix"></div>
           </div>
           <div class="name-wrapper">
-            <h1>John <br />Anderson</h1>
+            <h1>Yael Iván <br />Mota Herrera</h1>
+            <br />
+            <a class="button is-dark" href="https://drive.google.com/file/d/1Cg3cgQd_hunUWHqyr_kxVMrVE5jQIEEv/view?usp=sharing" target="_blank">
+              <b-icon icon="download" />
+              <span>Download CV</span>
+            </a>
             <!-- YOUR NAME AND LAST NAME  -->
           </div>
           <div class="clearfix"></div>
-          <div class="contact-info clearfix">
-            <ul class="list-titles">
-              <li>Call</li>
-              <li>Mail</li>
-              <li>Web</li>
-              <li>Home</li>
-            </ul>
-            <ul class="list-content ">
-              <li>+34 123 456 789</li>
-              <!-- YOUR PHONE NUMBER  -->
-              <li>j.anderson@gmail.com</li>
-              <!-- YOUR EMAIL -->
-              <li><a href="#">janderson.com</a></li>
-              <!-- YOUR WEBSITE  -->
-              <li>Los Angeles, CA</li>
-              <!-- YOUR STATE AND COUNTRY  -->
-            </ul>
-          </div>
           <div class="contact-presentation">
             <!-- YOUR PRESENTATION RESUME  -->
             <p>
@@ -152,20 +137,57 @@
               purus.
             </p>
           </div>
+          <div class="contact-info clearfix">
+            <ul class="list-titles">
+              <li>Call</li>
+              <li>Mail</li>
+              <li>Home</li>
+            </ul>
+            <ul class="list-content">
+              <li>
+                <a href="Tel:+52 1 9992335810"><b>+52 1 9992335810</b></a>
+              </li>
+              <!-- YOUR PHONE NUMBER  -->
+              <li>
+                <a href="mailto:ivan_mota09@hotmail.com"
+                  ><b>ivan_mota09@hotmail.com</b>
+                </a>
+              </li>
+              <!-- YOUR EMAIL -->
+              <li>
+                <a href="https://goo.gl/maps/Ra36kABmUqZSwAjZ7" target="_blank"
+                  ><b>Mérida, Yuc., Mex.</b>
+                </a>
+              </li>
+              <!-- YOUR STATE AND COUNTRY  -->
+            </ul>
+          </div>
           <div class="contact-social clearfix">
             <ul class="list-titles">
-              <li>Twitter</li>
-              <li>Dribbble</li>
-              <li>Codepen</li>
+              <li>Facebook</li>
+              <li>Linkedin</li>
+              <li>Github</li>
             </ul>
             <ul class="list-content">
               <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
-              <li><a href="">@janderson</a></li>
-              <!-- YOUR TWITTER USER  -->
-              <li><a href="">janderson</a></li>
-              <!-- YOUR DRIBBBLE USER  -->
-              <li><a href="">janderson</a></li>
-              <!-- YOUR BEHANCE USER  -->
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100005356991809"
+                  target="_blank"
+                  ><b>Iván Mota</b>
+                </a>
+              </li>
+              <!-- YOUR Facebook USER  -->
+              <li>
+                <a href="" target="_blank"><b>IvanMota</b></a>
+              </li>
+              <!-- YOUR Linkedin USER  -->
+              <li>
+                <a href="https://github.com/VmasterpartV" target="_blank"
+                  ><b>VmasterpartV</b></a
+                >
+              </li>
+              <!-- YOUR Github USER  -->
             </ul>
           </div>
         </div>
@@ -177,9 +199,11 @@
 
           <div class="experience-wrapper">
             <div class="company-wrapper clearfix">
-              <div class="experience-title">Company name</div>
+              <div class="experience-title">
+                Tecnological Institute of Merida
+              </div>
               <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-              <div class="time">Nov 2012 - Present</div>
+              <div class="time">Mar 2020 - Present</div>
               <!-- THE TIME YOU WORK WITH THE COMPANY  -->
             </div>
 
@@ -188,8 +212,18 @@
               <!-- JOB TITLE  -->
               <div class="company-description">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  a elit facilisis, adipiscing leo in, dignissim magna.
+                  Actually I'm part of a programming squad called
+                  <a
+                    class="link"
+                    href="https://www.facebook.com/profile.php?id=100005356991809"
+                    target="_blank"
+                    >Wolf Code
+                  </a>
+                  in which we are developing a web school control system with
+                  the use of current technologies for our university.
+                  <router-link class="link" tag="a" to="/">
+                    See more
+                  </router-link>
                 </p>
                 <!-- JOB DESCRIPTION  -->
               </div>
@@ -241,15 +275,28 @@
             <h3 class="section-title">Skills</h3>
             <!-- YOUR SET OF SKILLS  -->
             <ul>
-              <li class="skill-percentage">HTML / HTML5</li>
-              <li class="skill-percentage">CSS / CSS3 / SASS / LESS</li>
+              <li class="skill-percentage">HTML5 / CSS3</li>
               <li class="skill-percentage">Javascript</li>
-              <li class="skill-percentage">Jquery</li>
-              <li class="skill-percentage">Wordpress</li>
+              <li class="skill-percentage">Vue.js / Vuex</li>
+              <li class="skill-percentage">Python / Django</li>
               <li class="skill-percentage">Photoshop</li>
+              <li class="skill-percentage">Ilustrator</li>
             </ul>
           </div>
 
+          <div class="section-wrapper clearfix">
+            <h3 class="section-title">Competencies</h3>
+            <!-- DESCRIPTION OF YOUR HOBBIES -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
+              elit facilisis, adipiscing leo in, dignissim magna.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
+              elit facilisis, adipiscing leo in, dignissim magna.
+            </p>
+          </div>
           <div class="section-wrapper clearfix">
             <h3 class="section-title">Hobbies</h3>
             <!-- DESCRIPTION OF YOUR HOBBIES -->
@@ -327,10 +374,11 @@ body {
   line-height: 1.5em;
 }
 
-a {
-  color: #66cc99;
-  text-decoration: none;
+/* */
+.link {
+  color: rgb(127, 240, 255);
 }
+/* */
 
 .clearfix::after,
 .clearfix::before {
@@ -510,7 +558,7 @@ a {
 }
 .profile .st0,
 .profile .st1 {
-  fill: #66cc99;
+  fill: #4c6d90;
 }
 
 .experience {
@@ -529,7 +577,7 @@ a {
   }
 }
 .experience h3.experience-title {
-  color: #66cc99;
+  color: #a0c5ec;
   text-align: left;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -598,7 +646,7 @@ a {
   padding-right: 8%;
 }
 .section-wrapper h3.section-title {
-  color: #66cc99;
+  color: #a0c5ec;
   text-align: left;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -620,7 +668,7 @@ a {
 .section-wrapper .skill-percentage::before {
   content: '';
   height: 6px;
-  background: #66cc99;
+  background: #a0c5ec;
   position: absolute;
   margin-top: 3px;
   bottom: 0;
