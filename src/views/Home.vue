@@ -191,12 +191,10 @@
 
 <script>
 // @ is an alias to /src
-import AOS from 'aos'
 
 export default {
   name: 'Home',
   mounted () {
-    AOS.init()
     new Typewriter('#typewriter', {
       strings: ['typewriter', 'Effect', 'typewriter.js', 'example'],
       autoStart: true,
