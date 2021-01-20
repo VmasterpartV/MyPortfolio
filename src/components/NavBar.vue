@@ -44,6 +44,6 @@ export default {
 }
 
 .topNav {
-  border-top: 5px solid #206bc2;
+  border-top: 4px solid #4c6d90;
 }
 </style>
