@@ -165,7 +165,7 @@
           <div class="contact-social clearfix">
             <ul class="list-titles">
               <li>Facebook</li>
-              <li>Linkedin</li>
+              <li>LinkedIn</li>
               <li>Github</li>
             </ul>
             <ul class="list-content">
@@ -179,7 +179,7 @@
               </li>
               <!-- YOUR Facebook USER  -->
               <li>
-                <a href="" target="_blank"><b>IvanMota</b></a>
+                <a href="https://www.linkedin.com/in/ivanmota09/" target="_blank"><b>Iván Mota</b></a>
               </li>
               <!-- YOUR Linkedin USER  -->
               <li>
@@ -215,13 +215,13 @@
                   Actually I'm part of a programming squad called
                   <a
                     class="link"
-                    href="https://www.facebook.com/profile.php?id=100005356991809"
+                    href="https://www.facebook.com/WolfCodeProgrammingSquad"
                     target="_blank"
                     >Wolf Code
                   </a>
                   in which we are developing a web school control system with
                   the use of current technologies for our university.
-                  <router-link class="link" tag="a" to="/">
+                  <router-link class="link" tag="a" to="/projects">
                     See more
                   </router-link>
                 </p>

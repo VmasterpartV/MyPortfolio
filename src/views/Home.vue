@@ -50,7 +50,7 @@
                 ></a>
                 <a
                   class="button is-black"
-                  href=""
+                  href="https://www.linkedin.com/in/ivanmota09/"
                   target="_blank"
                   ><svg style="width:36px;height:36px" viewBox="0 0 24 24">
                     <path
