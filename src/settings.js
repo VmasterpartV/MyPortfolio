@@ -1,6 +1,5 @@
 module.exports = {
-  plugins: {
-    autoprefixer: {}
-  },
+  title: 'Portfolio',
+  owner: 'Masterpart',
   publicPath: '/myportfolio/'
-};
+}
