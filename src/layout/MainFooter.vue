@@ -6,10 +6,10 @@
   >
     <div class="container">
       <nav>
-        <ul>
+        <!--<ul>
           <li>
             <a href="https://www.creative-tim.com">
-              Creative Tim
+              Contact Us
             </a>
           </li>
           <li>
@@ -22,20 +22,11 @@
               Blog
             </a>
           </li>
-        </ul>
+        </ul>-->
+        Masterpart Studios &reg; 
       </nav>
       <div class="copyright">
-        &copy; {{ year }}, Designed by
-        <a href="https:///www.invisionapp.com" target="_blank" rel="noopener"
-          >Invision</a
-        >. Coded by
-        <a href="https://binarcode.com" target="_blank" rel="noopener"
-          >BinarCode</a
-        >
-        and
-        <a href="https://www.creative-tim.com" target="_blank" rel="noopener"
-          >Creative Tim</a
-        >.
+        &copy; {{ year }} All rights reserved
       </div>
     </div>
   </footer>
@@ -46,11 +37,11 @@ export default {
     backgroundColor: String,
     type: String
   },
-  data() {
+  data () {
     return {
       year: new Date().getFullYear()
-    };
+    }
   }
-};
+}
 </script>
 <style></style>

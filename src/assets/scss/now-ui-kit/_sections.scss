@@ -109,7 +109,7 @@
     }
 
     &[filter-color="orange"]{
-        @include linear-gradient(rgba($black-color,.20), rgba(224, 23, 3, 0.6));
+        @include linear-gradient(rgba($black-color,.40), rgba(0, 0, 0, 0.829));
     }
 }
 
@@ -283,7 +283,7 @@
     }
 
     .hero-images-container-1{
-        max-width: 390px;
+        max-width: 670px;
         position: absolute;
         top: 55%;
         right: 18%;
