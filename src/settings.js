@@ -1,5 +1,5 @@
 module.exports = {
   title: 'Portfolio',
   owner: 'Masterpart',
-  publicPath: '/myportfolio/'
+  publicPath: '/masterpart_studios/'
 }
