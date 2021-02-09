@@ -16,7 +16,7 @@
         </p>
         <div class="content">
           <div class="social-description">
-            <h2>1</h2>
+            <h2>2</h2>
             <p>Web project</p>
           </div>
           <div class="social-description">

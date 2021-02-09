@@ -25,14 +25,14 @@
         </router-link>
       </li>
       <li class="nav-item">
-        <router-link tag="a" class="nav-link" to="/profile">
+        <router-link tag="a" class="nav-link" to="/landing">
           <i class="now-ui-icons users_single-02"></i>
           &nbsp;
-          <p>About me</p>
+          <p>About</p>
         </router-link>
       </li>
       <li class="nav-item">
-        <router-link tag="a" class="nav-link" to="/landing">
+        <router-link tag="a" class="nav-link" to="/projects">
           <i class="now-ui-icons files_single-copy-04"></i>
           &nbsp;
           <p>Projects</p>
@@ -101,9 +101,9 @@ export default {
     colorOnScroll: Number
   },
   components: {
-    DropDown,
+    //DropDown,
     Navbar,
-    NavLink,
+    //NavLink,
     [Popover.name]: Popover
   }
 }
