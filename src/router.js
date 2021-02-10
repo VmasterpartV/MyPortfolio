@@ -1,13 +1,14 @@
-import Vue from 'vue';
-import Router from 'vue-router';
-import Index from './pages/Index.vue';
-import Landing from './pages/Landing.vue';
-import Login from './pages/Login.vue';
-import Profile from './pages/Profile.vue';
-import MainNavbar from './layout/MainNavbar.vue';
-import MainFooter from './layout/MainFooter.vue';
+import Vue from 'vue'
+import Router from 'vue-router'
+import Index from './pages/Index.vue'
+import Landing from './pages/Landing.vue'
+import Projects from './pages/Projects.vue'
+import Login from './pages/Login.vue'
+import Profile from './pages/Profile.vue'
+import MainNavbar from './layout/MainNavbar.vue'
+import MainFooter from './layout/MainFooter.vue'
 
-Vue.use(Router);
+Vue.use(Router)
 
 export default new Router({
   linkExactActiveClass: 'active',
@@ -31,6 +32,15 @@ export default new Router({
       }
     },
     {
+      path: '/projects',
+      name: 'projects',
+      components: { default: Projects, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
       path: '/login',
       name: 'login',
       components: { default: Login, header: MainNavbar },
@@ -39,8 +49,8 @@ export default new Router({
       }
     },
     {
-      path: '/profile',
-      name: 'profile',
+      path: '/ivanmota',
+      name: 'ivanmota',
       components: { default: Profile, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
@@ -50,9 +60,9 @@ export default new Router({
   ],
   scrollBehavior: to => {
     if (to.hash) {
-      return { selector: to.hash };
+      return { selector: to.hash }
     } else {
-      return { x: 0, y: 0 };
+      return { x: 0, y: 0 }
     }
   }
-});
+})

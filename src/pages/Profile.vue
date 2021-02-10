@@ -8,22 +8,24 @@
       </parallax>
       <div class="container">
         <div class="photo-container">
-          <img src="img/ryan.jpg" alt="" />
+          <img src="img/yo.jpg" alt="" />
         </div>
-        <h3 class="title">Ryan Scheinder</h3>
-        <p class="category">Photographer</p>
+        <h3 class="title">Iván Mota</h3>
+        <p class="category">
+          Software Engineering Student / Photographer / Freelancer designer
+        </p>
         <div class="content">
           <div class="social-description">
-            <h2>26</h2>
-            <p>Comments</p>
+            <h2>2</h2>
+            <p>Web project</p>
           </div>
           <div class="social-description">
-            <h2>26</h2>
-            <p>Comments</p>
+            <h2>1</h2>
+            <p>Videogame</p>
           </div>
           <div class="social-description">
-            <h2>48</h2>
-            <p>Bookmarks</p>
+            <h2>400+</h2>
+            <p>IG Followers</p>
           </div>
         </div>
       </div>
@@ -31,30 +33,61 @@
     <div class="section">
       <div class="container">
         <div class="button-container">
-          <a href="#button" class="btn btn-primary btn-round btn-lg">Follow</a>
           <a
-            href="#button"
+            href="https://drive.google.com/file/d/1Cg3cgQd_hunUWHqyr_kxVMrVE5jQIEEv/view?usp=sharing"
+            target="_blank"
+            class="btn btn-primary btn-round btn-lg"
+            >Download CV</a
+          >
+          <a
+            href="https://www.facebook.com/profile.php?id=100005356991809"
+            target="_blank"
             class="btn btn-default btn-round btn-lg btn-icon"
             rel="tooltip"
-            title="Follow me on Twitter"
+            title="Follow me on Facebook"
           >
-            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
           </a>
           <a
-            href="#button"
+            href="https://www.instagram.com/ivanmota_/"
+            target="_blank"
             class="btn btn-default btn-round btn-lg btn-icon"
             rel="tooltip"
             title="Follow me on Instagram"
           >
             <i class="fab fa-instagram"></i>
           </a>
+          <a
+            href="https://www.linkedin.com/in/ivanmota09/"
+            target="_blank"
+            class="btn btn-default btn-round btn-lg btn-icon"
+            rel="tooltip"
+            title="Follow me on Instagram"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/VmasterpartV"
+            target="_blank"
+            class="btn btn-default btn-round btn-lg btn-icon"
+            rel="tooltip"
+            title="Follow me on Instagram"
+          >
+            <i class="fab fa-github"></i>
+          </a>
         </div>
         <h3 class="title">About me</h3>
         <h5 class="description">
-          An artist of considerable range, Ryan — the name taken by
-          Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and
-          records all of his own music, giving it a warm, intimate feel with a
-          solid groove structure. An artist of considerable range.
+          <b
+            >Iván Mota — I'm passionate about programming with an insatiable
+            desire to learn, actually I'm study computational systems
+            engineering at the
+            <a href="https://www.itmerida.mx/" target="_blank"
+              >Tecnological Institute of Merida</a
+            >
+            in Yucatan, Mexico and works how a freelancer designer, photographer
+            and software developer.</b
+          >
         </h5>
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto">
@@ -68,52 +101,47 @@
             type="primary"
           >
             <tab-pane title="Profile">
-              <i slot="label" class="now-ui-icons design_image"></i>
+              <i slot="label" class="now-ui-icons business_globe"></i>
 
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/bg6.jpg" class="img-raised" />
-                    <img src="img/bg11.jpg" alt="" class="img-raised" />
+                    <img src="img/log-2.png" alt="" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/bg7.jpg" alt="" class="img-raised" />
-                    <img src="img/bg8.jpg" alt="" class="img-raised" />
+                    <img src="img/log.png" alt="" class="img-raised" />
                   </div>
                 </div>
               </div>
             </tab-pane>
 
             <tab-pane title="Home">
-              <i slot="label" class="now-ui-icons location_world"></i>
+              <i slot="label" class="now-ui-icons design_image"></i>
 
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/bg1.jpg" alt="" class="img-raised" />
-                    <img src="img/bg3.jpg" alt="" class="img-raised" />
+                    <img src="img/log-5.png" alt="" class="img-raised" />
+                    <img src="img/log-3.png" alt="" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/bg8.jpg" alt="" class="img-raised" />
-                    <img src="img/bg7.jpg" alt="" class="img-raised" />
+                    <img src="img/log-6.png" alt="" class="img-raised" />
+                    <img src="img/log-4.png" alt="" class="img-raised" />
                   </div>
                 </div>
               </div>
             </tab-pane>
 
             <tab-pane title="Messages">
-              <i slot="label" class="now-ui-icons sport_user-run"></i>
+              <i slot="label" class="now-ui-icons tech_controller-modern"></i>
 
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/bg3.jpg" alt="" class="img-raised" />
-                    <img src="img/bg8.jpg" alt="" class="img-raised" />
+                    <img src="img/log-7.png" alt="" class="img-raised" />
                   </div>
-                  <div class="col-md-6">
-                    <img src="img/bg7.jpg" alt="" class="img-raised" />
-                    <img src="img/bg6.jpg" class="img-raised" />
-                  </div>
+                  <!--<div class="col-md-6">
+                  </div>-->
                 </div>
               </div>
             </tab-pane>
@@ -124,7 +152,7 @@
   </div>
 </template>
 <script>
-import { Tabs, TabPane } from '@/components';
+import { Tabs, TabPane } from '@/components'
 
 export default {
   name: 'profile',
@@ -133,6 +161,6 @@ export default {
     Tabs,
     TabPane
   }
-};
+}
 </script>
 <style></style>
