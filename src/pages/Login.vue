@@ -36,7 +36,7 @@
               </div>
               <div class="pull-left">
                 <h6>
-                  <a href="#pablo" class="link footer-link">Create Accou</a>
+                  <a href="#pablo" class="link footer-link">Create Account</a>
                 </h6>
               </div>
               <div class="pull-right">
