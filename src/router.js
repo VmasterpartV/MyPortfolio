@@ -40,14 +40,14 @@ export default new Router({
         footer: { backgroundColor: 'black' }
       }
     },
-    {
+    /*{
       path: '/login',
       name: 'login',
       components: { default: Login, header: MainNavbar },
       props: {
         header: { colorOnScroll: 400 }
       }
-    },
+    },*/
     {
       path: '/ivanmota',
       name: 'ivanmota',
