@@ -2,5 +2,5 @@ module.exports = {
   plugins: {
     autoprefixer: {}
   },
-  publicPath: '/myportfolio/'
+  publicPath: '/masterpart_studios/'
 };
