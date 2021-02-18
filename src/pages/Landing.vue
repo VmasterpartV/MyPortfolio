@@ -96,7 +96,7 @@
     </div>
     <div class="section section-team text-center">
       <div class="container">
-        <h2 class="title">Our team</h2>
+        <h2 class="title">Me</h2>
         <div class="team">
           <div class="row">
             <div class="col-md-4"></div>
